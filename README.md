@@ -1,7 +1,11 @@
-# rest-api-playlist
-Course files for the REST API tutorial series on The Net Ninja Youtube channel
+# Ponter Digiers
+Aplikasi pencarian digiers menggunakan REST API untuk tutorial implementasi MongoDB
 
-# How to use
-Each branch corresponds to a specific lesson in the playlist. For example the lesson-10 branch will contain the code at the END of lesson 10. 
+# Komponen
+Arsitektur Aplikasi ini terdiri atas
+Node JS (Platform Pemrograman di sisi server)
+Express (Framework Node JS)
+Body Parser (untuk middleware)
+Mongoose (modul koneksi ke mongodb)
 
-Not every lesson has a corresponding branch (e.g. where the lesson added nothing else to the code).
+
