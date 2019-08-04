@@ -5,7 +5,6 @@ pada Kelas Digital Talent Scholarship
 Universitas Sam Ratulangi
 
 # Komponen
-Arsitektur Aplikasi ini terdiri atas:  
 Node JS (Platform Pemrograman di sisi server)  
 Express (Framework Node JS)  
 Body Parser (untuk middleware)  
