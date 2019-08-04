@@ -8,7 +8,13 @@ router.get('/digiers', function(req, res){
 
 //Tambah data digiers ke database
 router.post('/digiers', function(req, res){
-    res.send({type: 'POST'});
+    console.log(req.body);
+    res.send({
+        type: 'POST',
+        name: req.body.name,
+        tema: req.body.tema,
+        availability: req.body.available
+    });
 });
 
 //Update data digiers dalam database
