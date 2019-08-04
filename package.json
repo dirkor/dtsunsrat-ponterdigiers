@@ -1,25 +1,25 @@
 {
-  "name": "rest-api-playlist",
+  "name": "dtsunsrat-ponterdigiers",
   "version": "1.0.0",
-  "description": "Course files for the REST API tutorial series on The Net Ninja Youtube channel",
+  "description": "Praktek DTS untuk mongodb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/rest-api-playlist.git"
+    "url": "git+https://github.com/dirkor/dtsunsrat-ponterdigiers.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/rest-api-playlist/issues"
+    "url": "https://github.com/dirkor/dtsunsrat-ponterdigiers/issues"
   },
-  "homepage": "https://github.com/iamshaunjp/rest-api-playlist#readme",
+  "homepage": "https://github.com/dirkor/dtsunsrat-ponterdigiers#readme",
   "dependencies": {
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
-    "mongoose": "^4.8.4"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
