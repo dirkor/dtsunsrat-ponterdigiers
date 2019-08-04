@@ -1,6 +1,18 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
+//membuat GeoLocation Schema "GeoSchema"
+const GeoSchema = new Schema({
+    type: {
+        type: String,
+        default: "Point"
+    },
+    coordinates: {
+        type: [Number],
+        index: "2dsphere"
+    }
+});
+
 //membuat Schema dan Model "digiers"
 const DigiersSchema = new Schema({
     name: {
@@ -13,8 +25,8 @@ const DigiersSchema = new Schema({
     available: {
         type: Boolean,
         default: false
-    }
-    // tambahan geo location
+    },
+    geometry: GeoSchema
 });
 
 //membuat model berdasarkan Schema

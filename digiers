@@ -1,0 +1,48 @@
+{
+    "name": "Andre",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-80, 25.791]}
+}
+
+{
+    "name": "David",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-80.245, 25.391]}
+}
+
+{
+    "name": "Chris",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-80.789, 25.701]}
+}
+
+{
+    "name": "Dwi",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-82.589, 25.701]}
+}
+
+{
+    "name": "Louis",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-81.1, 24.95]}
+}
+
+{
+    "name": "Patrick",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-70, 22.567]}
+}
+
+{
+    "name": "Lauri",
+    "tema": "Internet of Things",
+    "available": true,
+    "geometry": {"type": "point", "coordinates": [-72, 21.123]}
+}

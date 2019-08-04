@@ -11,6 +11,8 @@ const app = express();
 mongoose.connect('mongodb://localhost/digiersunsrat');
 mongoose.Promise = global.Promise;
 
+app.use(express.static('public'));
+
 app.use(bodyParser.json());
 
 //Inisialisasi atau menggunakan modul routes api

@@ -4,7 +4,12 @@ const Digier = require('../models/digiers')
 
 //Ambil daftar digiers dari database
 router.get('/digiers', function(req, res){
-    res.send({type: 'GET'});
+    Digier.aggregate([{ 
+        $geoNear: { 
+            near: {type: "Point", coordinates: [parseFloat(req.query.lng), parseFloat(req.query.lat)]}, spherical: true, maxDistance: 100000, distanceField: "dis" } 
+        }]).then(function(digiers){
+        res.send(digiers);
+    });
 });
 
 //Tambah data digiers ke database
