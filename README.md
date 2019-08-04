@@ -1,5 +1,7 @@
 # Ponter Digiers
 Aplikasi pencarian digiers menggunakan REST API untuk tutorial implementasi MongoDB
+Untuk Kelas Digital Talent Scholarship
+Universitas Sam Ratulangi
 
 # Komponen
 Arsitektur Aplikasi ini terdiri atas:  
